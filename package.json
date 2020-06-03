@@ -1,0 +1,19 @@
+{
+  "name": "hurricane_nuxt",
+  "version": "1.0.0",
+  "description": "Hurricane Cycles site built with Nuxt JS",
+  "author": "Nick Moore",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0"
+  }
+}
