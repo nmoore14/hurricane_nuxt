@@ -2,7 +2,7 @@
     <header class="sticky sm:fixed flex flex-col sm:flex-row w-full sm:items-center md:w-7/12 p-2 z-50 bg-black sm:rounded-br-lg">
       <div class="flex items-center justify-between px-4">
         <div>
-          <nuxt-link to="/"><h1 class="text-2xl text-white self-center">Hurricane Cycles</h1></nuxt-link>
+          <nuxt-link to="/"><h1 class="text-2xl text-white self-center myDisplay-1">Hurricane Cycles</h1></nuxt-link>
         </div>
         <div>
           <button @click="isOpen = !isOpen" type="button" class="sm:hidden block text-gray-500 hover:text-white focus:text-white focus:outline-none">
@@ -14,7 +14,7 @@
         </div>
       </div>
       <div :class="isOpen ? 'block' : 'hidden'" class="sm:block items-center">
-        <nuxt-link to="about" class="block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800">About</nuxt-link>
+        <nuxt-link to="about" class="block px-2 py-1 text-white text-center font-semibold rounded hover:bg-gray-800">About</nuxt-link>
       </div>
   </header>
 </template>
