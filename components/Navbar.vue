@@ -14,7 +14,8 @@
         </div>
       </div>
       <div :class="isOpen ? 'block' : 'hidden'" class="sm:block items-center">
-        <nuxt-link to="about" class="block px-2 py-1 text-white text-center font-semibold rounded hover:bg-gray-800">About</nuxt-link>
+        <nuxt-link to="about" class="block sm:inline-block px-2 py-1 text-white text-center font-semibold rounded hover:bg-gray-800">About</nuxt-link>
+        <nuxt-link to="signup" class="block sm:inline-block px-2 py-1 text-white text-center font-semibold rounderd hover:bg-gray-800">Sign Up</nuxt-link>
       </div>
   </header>
 </template>
