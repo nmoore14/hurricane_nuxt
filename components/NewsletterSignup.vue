@@ -17,7 +17,8 @@
 
 <script>
 export default {
-  name: 'Newsletter_Signup'
+  name: 'Newsletter_Signup',
+  props: ['type']
 }
 </script>
 
