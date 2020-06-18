@@ -23,16 +23,12 @@
         <p class="text-lg text-white">Sunday: <span class="text-2xl myDisplay-p">Closed</span></p>
       </div>
     </div>
-    <NewsletterSignup />
   </div>
 </template>
 
 <script>
-import NewsletterSignup from '~/components/NewsletterSignup.vue'
-
 export default {
   components: {
-    NewsletterSignup
   }
 }
 </script>
